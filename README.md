@@ -230,9 +230,3 @@ frontend/
 ├── resources/views/
 └── routes/web.php
 ```
-
-### Coding Standards
-- PSR-12 PHP coding standard
-- Laravel naming conventions
-- RESTful API design principles
-- Clean code practices
