@@ -45,11 +45,11 @@ test-fullstack/
 ### 👥 Employees  
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `GET` | `/api/employees` | Get all employees |
-| `POST` | `/api/employees` | Create new employee |
-| `GET` | `/api/employees/{id}` | Get employee by ID |
-| `PUT` | `/api/employees/{id}` | Update employee |
-| `DELETE` | `/api/employees/{id}` | Delete employee |
+| `GET` | `/api/employee` | Get all employees |
+| `POST` | `/api/employee` | Create new employee |
+| `GET` | `/api/employee/{id}` | Get employee by ID |
+| `PUT` | `/api/employee/{id}` | Update employee |
+| `DELETE` | `/api/employee/{id}` | Delete employee |
 
 ### ⏰ Attendance
 | Method | Endpoint | Description |
@@ -179,7 +179,7 @@ curl "http://localhost:8000/api/attendance/logs?date_from=2025-08-01&date_to=202
 
 ## 📊 Database Schema
 
-### Employees Table
+### Employee Table
 - `id` - Primary Key
 - `employee_id` - Unique employee identifier (auto-generated: EMP001, EMP002, etc.)
 - `department_id` - Foreign key to departments
